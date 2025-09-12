@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router";
 
-const API_BASE_URL = "http://127.0.0.1:5000";
+const API_BASE_URL = "https://habit-tracker-6.onrender.com";
 
 const HabitHistory = () => {
   const { habitId } = useParams();
