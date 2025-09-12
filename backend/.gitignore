@@ -1,0 +1,16 @@
+# Python virtual environment
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# OS-specific junk
+.DS_Store
+
+# Optional: log files, database files, etc.
+*.log
+*.sqlite3
